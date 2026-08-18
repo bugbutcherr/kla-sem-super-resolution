@@ -1,0 +1,304 @@
+=== Training Log ===
+================================================================
+🚀 KLA HACKATHON: High-Performance GPU Training & Submission
+⚡ Device: cuda (NVIDIA GeForce RTX 4060 Laptop GPU)
+⚡ TF32 Tensor Cores: Enabled | PyTorch: 2.6.0+cu124
+================================================================
+Found 3200 training pairs, 400 test images.
+Preloading contiguous tensor arrays into RAM...
+✅ Tensors loaded: Train LR torch.Size([2880, 1, 128, 128]), HR torch.Size([2880, 1, 256, 256])
+✅ Validation: 320 pairs
+✅ Model: NAFNetSR (23.70M parameters)
+Loading transferred checkpoint: C:\Users\shash\.gemini\antigravity-ide\scratch\kla_hackathon\kla_best_model.pth...
+✅ Successfully resumed from Epoch 25 | Baseline Best PSNR: 27.82 dB
+
+🚀 Training on RTX 4060: Epochs 25 -> 300 | Effective Batch: 16 | Charbonnier Loss
+
+Epoch [ 26/300] (86.7s) | Loss: 0.03623 | Val PSNR: 27.92 dB | LR: 1.00e-04 🔥 [NEW BEST!]
+Epoch [ 27/300] (84.8s) | Loss: 0.03061 | Val PSNR: 27.98 dB | LR: 1.90e-04 🔥 [NEW BEST!]
+Epoch [ 28/300] (83.9s) | Loss: 0.03055 | Val PSNR: 28.02 dB | LR: 2.80e-04 🔥 [NEW BEST!]
+Epoch [ 29/300] (79.8s) | Loss: 0.03403 | Val PSNR: 28.06 dB | LR: 3.70e-04 🔥 [NEW BEST!]
+Epoch [ 30/300] (79.3s) | Loss: 0.03467 | Val PSNR: 27.81 dB | LR: 4.60e-04 
+Epoch [ 31/300] (81.5s) | Loss: 0.03271 | Val PSNR: 27.05 dB | LR: 5.50e-04 
+Epoch [ 32/300] (78.4s) | Loss: 0.03306 | Val PSNR: 26.73 dB | LR: 6.40e-04 
+Epoch [ 33/300] (78.4s) | Loss: 0.03182 | Val PSNR: 27.79 dB | LR: 7.30e-04 
+Epoch [ 34/300] (78.3s) | Loss: 0.03295 | Val PSNR: 28.05 dB | LR: 8.20e-04 
+Epoch [ 35/300] (78.4s) | Loss: 0.03211 | Val PSNR: 28.11 dB | LR: 9.10e-04 🔥 [NEW BEST!]
+Epoch [ 36/300] (78.3s) | Loss: 0.03532 | Val PSNR: 28.10 dB | LR: 1.00e-03 
+Epoch [ 37/300] (78.2s) | Loss: 0.03344 | Val PSNR: 28.11 dB | LR: 1.00e-03 
+Epoch [ 38/300] (78.3s) | Loss: 0.03293 | Val PSNR: 28.11 dB | LR: 1.00e-03 
+Epoch [ 39/300] (78.6s) | Loss: 0.03264 | Val PSNR: 28.08 dB | LR: 1.00e-03 
+Epoch [ 40/300] (80.4s) | Loss: 0.03276 | Val PSNR: 27.96 dB | LR: 9.99e-04 
+Epoch [ 41/300] (78.1s) | Loss: 0.03150 | Val PSNR: 27.79 dB | LR: 9.99e-04 
+Epoch [ 42/300] (79.2s) | Loss: 0.03182 | Val PSNR: 27.68 dB | LR: 9.99e-04 
+Epoch [ 43/300] (78.9s) | Loss: 0.03189 | Val PSNR: 27.66 dB | LR: 9.98e-04 
+Epoch [ 44/300] (78.4s) | Loss: 0.03152 | Val PSNR: 27.71 dB | LR: 9.98e-04 
+Epoch [ 45/300] (78.4s) | Loss: 0.03169 | Val PSNR: 27.76 dB | LR: 9.97e-04 
+Epoch [ 46/300] (78.8s) | Loss: 0.03158 | Val PSNR: 27.83 dB | LR: 9.96e-04 
+Epoch [ 47/300] (78.5s) | Loss: 0.03143 | Val PSNR: 27.91 dB | LR: 9.96e-04 
+Epoch [ 48/300] (78.6s) | Loss: 0.03075 | Val PSNR: 27.98 dB | LR: 9.95e-04 
+Epoch [ 49/300] (78.6s) | Loss: 0.03159 | Val PSNR: 28.04 dB | LR: 9.94e-04 
+Epoch [ 50/300] (78.6s) | Loss: 0.03200 | Val PSNR: 28.08 dB | LR: 9.93e-04 
+Epoch [ 51/300] (78.4s) | Loss: 0.03091 | Val PSNR: 28.11 dB | LR: 9.92e-04 🔥 [NEW BEST!]
+Epoch [ 52/300] (78.7s) | Loss: 0.03713 | Val PSNR: 28.12 dB | LR: 9.91e-04 🔥 [NEW BEST!]
+Epoch [ 53/300] (78.6s) | Loss: 0.03199 | Val PSNR: 28.14 dB | LR: 9.90e-04 🔥 [NEW BEST!]
+Epoch [ 54/300] (78.6s) | Loss: 0.03249 | Val PSNR: 28.17 dB | LR: 9.89e-04 🔥 [NEW BEST!]
+Epoch [ 55/300] (78.5s) | Loss: 0.03737 | Val PSNR: 28.15 dB | LR: 9.87e-04 
+Epoch [ 56/300] (78.6s) | Loss: 0.03194 | Val PSNR: 28.16 dB | LR: 9.86e-04 
+Epoch [ 57/300] (78.7s) | Loss: 0.03584 | Val PSNR: 28.13 dB | LR: 9.85e-04 
+Epoch [ 58/300] (78.5s) | Loss: 0.03877 | Val PSNR: 28.08 dB | LR: 9.83e-04 
+Epoch [ 59/300] (78.6s) | Loss: 0.03449 | Val PSNR: 28.07 dB | LR: 9.82e-04 
+Epoch [ 60/300] (78.6s) | Loss: 0.03182 | Val PSNR: 28.09 dB | LR: 9.80e-04 
+Epoch [ 61/300] (78.6s) | Loss: 0.03233 | Val PSNR: 28.11 dB | LR: 9.78e-04 
+Epoch [ 62/300] (78.4s) | Loss: 0.03201 | Val PSNR: 28.14 dB | LR: 9.76e-04 
+Epoch [ 63/300] (78.4s) | Loss: 0.03147 | Val PSNR: 28.16 dB | LR: 9.75e-04 
+Epoch [ 64/300] (78.4s) | Loss: 0.03642 | Val PSNR: 28.16 dB | LR: 9.73e-04 
+Epoch [ 65/300] (78.6s) | Loss: 0.03319 | Val PSNR: 28.15 dB | LR: 9.71e-04 
+Epoch [ 66/300] (78.7s) | Loss: 0.03196 | Val PSNR: 28.17 dB | LR: 9.69e-04 🔥 [NEW BEST!]
+Epoch [ 67/300] (79.0s) | Loss: 0.03663 | Val PSNR: 28.15 dB | LR: 9.67e-04 
+Epoch [ 68/300] (78.6s) | Loss: 0.03247 | Val PSNR: 28.14 dB | LR: 9.64e-04 
+Epoch [ 69/300] (78.3s) | Loss: 0.03196 | Val PSNR: 28.15 dB | LR: 9.62e-04 
+Epoch [ 70/300] (78.1s) | Loss: 0.03151 | Val PSNR: 28.17 dB | LR: 9.60e-04 🔥 [NEW BEST!]
+Epoch [ 71/300] (78.4s) | Loss: 0.03142 | Val PSNR: 28.19 dB | LR: 9.58e-04 🔥 [NEW BEST!]
+Epoch [ 72/300] (78.0s) | Loss: 0.03607 | Val PSNR: 28.19 dB | LR: 9.55e-04 
+Epoch [ 73/300] (78.1s) | Loss: 0.03314 | Val PSNR: 28.18 dB | LR: 9.53e-04 
+Epoch [ 74/300] (78.2s) | Loss: 0.03141 | Val PSNR: 28.19 dB | LR: 9.50e-04 
+Epoch [ 75/300] (78.3s) | Loss: 0.03353 | Val PSNR: 28.19 dB | LR: 9.48e-04 
+Epoch [ 76/300] (78.0s) | Loss: 0.03137 | Val PSNR: 28.20 dB | LR: 9.45e-04 🔥 [NEW BEST!]
+Epoch [ 77/300] (78.2s) | Loss: 0.03075 | Val PSNR: 28.21 dB | LR: 9.42e-04 🔥 [NEW BEST!]
+Epoch [ 78/300] (78.3s) | Loss: 0.03059 | Val PSNR: 28.23 dB | LR: 9.39e-04 🔥 [NEW BEST!]
+Epoch [ 79/300] (78.1s) | Loss: 0.03108 | Val PSNR: 28.24 dB | LR: 9.36e-04 🔥 [NEW BEST!]
+Epoch [ 80/300] (78.4s) | Loss: 0.03449 | Val PSNR: 28.24 dB | LR: 9.34e-04 
+Epoch [ 81/300] (78.7s) | Loss: 0.03094 | Val PSNR: 28.25 dB | LR: 9.31e-04 🔥 [NEW BEST!]
+Epoch [ 82/300] (78.4s) | Loss: 0.03093 | Val PSNR: 28.26 dB | LR: 9.28e-04 🔥 [NEW BEST!]
+Epoch [ 83/300] (78.5s) | Loss: 0.03126 | Val PSNR: 28.26 dB | LR: 9.24e-04 🔥 [NEW BEST!]
+Epoch [ 84/300] (78.8s) | Loss: 0.03370 | Val PSNR: 28.26 dB | LR: 9.21e-04 
+Epoch [ 85/300] (79.0s) | Loss: 0.03148 | Val PSNR: 28.26 dB | LR: 9.18e-04 
+Epoch [ 86/300] (87.7s) | Loss: 0.03214 | Val PSNR: 28.27 dB | LR: 9.15e-04 🔥 [NEW BEST!]
+Epoch [ 87/300] (80.8s) | Loss: 0.03494 | Val PSNR: 28.25 dB | LR: 9.11e-04 
+Epoch [ 88/300] (112.6s) | Loss: 0.03106 | Val PSNR: 28.26 dB | LR: 9.08e-04 
+Epoch [ 89/300] (82.8s) | Loss: 0.03054 | Val PSNR: 28.28 dB | LR: 9.05e-04 🔥 [NEW BEST!]
+Epoch [ 90/300] (79.1s) | Loss: 0.03395 | Val PSNR: 28.26 dB | LR: 9.01e-04 
+Epoch [ 91/300] (78.4s) | Loss: 0.03062 | Val PSNR: 28.27 dB | LR: 8.98e-04 
+Epoch [ 92/300] (78.2s) | Loss: 0.03065 | Val PSNR: 28.28 dB | LR: 8.94e-04 🔥 [NEW BEST!]
+Epoch [ 93/300] (78.6s) | Loss: 0.03076 | Val PSNR: 28.29 dB | LR: 8.90e-04 🔥 [NEW BEST!]
+Epoch [ 94/300] (78.5s) | Loss: 0.03035 | Val PSNR: 28.31 dB | LR: 8.87e-04 🔥 [NEW BEST!]
+Epoch [ 95/300] (78.4s) | Loss: 0.03453 | Val PSNR: 28.32 dB | LR: 8.83e-04 🔥 [NEW BEST!]
+Epoch [ 96/300] (78.4s) | Loss: 0.03372 | Val PSNR: 28.31 dB | LR: 8.79e-04 
+Epoch [ 97/300] (78.6s) | Loss: 0.03240 | Val PSNR: 28.29 dB | LR: 8.75e-04 
+Epoch [ 98/300] (79.9s) | Loss: 0.03038 | Val PSNR: 28.30 dB | LR: 8.71e-04 
+Epoch [ 99/300] (79.4s) | Loss: 0.03020 | Val PSNR: 28.32 dB | LR: 8.67e-04 🔥 [NEW BEST!]
+Epoch [100/300] (78.8s) | Loss: 0.03099 | Val PSNR: 28.34 dB | LR: 8.63e-04 🔥 [NEW BEST!]
+Epoch [101/300] (78.5s) | Loss: 0.03025 | Val PSNR: 28.34 dB | LR: 8.59e-04 🔥 [NEW BEST!]
+Epoch [102/300] (79.6s) | Loss: 0.03059 | Val PSNR: 28.35 dB | LR: 8.55e-04 🔥 [NEW BEST!]
+Epoch [103/300] (78.3s) | Loss: 0.03044 | Val PSNR: 28.36 dB | LR: 8.51e-04 🔥 [NEW BEST!]
+Epoch [104/300] (78.0s) | Loss: 0.02992 | Val PSNR: 28.38 dB | LR: 8.46e-04 🔥 [NEW BEST!]
+Epoch [105/300] (78.1s) | Loss: 0.02997 | Val PSNR: 28.39 dB | LR: 8.42e-04 🔥 [NEW BEST!]
+Epoch [106/300] (78.3s) | Loss: 0.03182 | Val PSNR: 28.40 dB | LR: 8.38e-04 🔥 [NEW BEST!]
+Epoch [107/300] (77.9s) | Loss: 0.03228 | Val PSNR: 28.37 dB | LR: 8.33e-04 
+Epoch [108/300] (78.0s) | Loss: 0.03036 | Val PSNR: 28.37 dB | LR: 8.29e-04 
+Epoch [109/300] (78.1s) | Loss: 0.03010 | Val PSNR: 28.39 dB | LR: 8.24e-04 
+Epoch [110/300] (78.1s) | Loss: 0.03133 | Val PSNR: 28.40 dB | LR: 8.20e-04 🔥 [NEW BEST!]
+Epoch [111/300] (78.1s) | Loss: 0.03133 | Val PSNR: 28.40 dB | LR: 8.15e-04 
+Epoch [112/300] (78.2s) | Loss: 0.03423 | Val PSNR: 28.40 dB | LR: 8.11e-04 
+Epoch [113/300] (78.2s) | Loss: 0.03369 | Val PSNR: 28.18 dB | LR: 8.06e-04 
+Epoch [114/300] (78.2s) | Loss: 0.03036 | Val PSNR: 28.29 dB | LR: 8.01e-04 
+Epoch [115/300] (77.9s) | Loss: 0.03119 | Val PSNR: 28.37 dB | LR: 7.96e-04 
+Epoch [116/300] (78.4s) | Loss: 0.03065 | Val PSNR: 28.39 dB | LR: 7.92e-04 
+Epoch [117/300] (78.3s) | Loss: 0.03106 | Val PSNR: 28.41 dB | LR: 7.87e-04 🔥 [NEW BEST!]
+Epoch [118/300] (78.5s) | Loss: 0.03754 | Val PSNR: 28.38 dB | LR: 7.82e-04 
+Epoch [119/300] (78.1s) | Loss: 0.03030 | Val PSNR: 28.38 dB | LR: 7.77e-04 
+Epoch [120/300] (78.9s) | Loss: 0.03009 | Val PSNR: 28.40 dB | LR: 7.72e-04 
+Epoch [121/300] (79.1s) | Loss: 0.02989 | Val PSNR: 28.41 dB | LR: 7.67e-04 🔥 [NEW BEST!]
+Epoch [122/300] (78.3s) | Loss: 0.03419 | Val PSNR: 28.42 dB | LR: 7.62e-04 🔥 [NEW BEST!]
+Epoch [123/300] (78.7s) | Loss: 0.03260 | Val PSNR: 28.39 dB | LR: 7.57e-04 
+Epoch [124/300] (80.4s) | Loss: 0.03272 | Val PSNR: 28.36 dB | LR: 7.52e-04 
+Epoch [125/300] (80.6s) | Loss: 0.03987 | Val PSNR: 28.31 dB | LR: 7.47e-04 
+Epoch [126/300] (78.5s) | Loss: 0.03175 | Val PSNR: 28.16 dB | LR: 7.42e-04 
+Epoch [127/300] (78.4s) | Loss: 0.03101 | Val PSNR: 27.21 dB | LR: 7.36e-04 
+Epoch [128/300] (78.7s) | Loss: 0.03353 | Val PSNR: 27.42 dB | LR: 7.31e-04 
+Epoch [129/300] (78.2s) | Loss: 0.03079 | Val PSNR: 28.12 dB | LR: 7.26e-04 
+Epoch [130/300] (78.7s) | Loss: 0.03007 | Val PSNR: 28.33 dB | LR: 7.21e-04 
+Epoch [131/300] (78.5s) | Loss: 0.03099 | Val PSNR: 28.36 dB | LR: 7.15e-04 
+Epoch [132/300] (78.5s) | Loss: 0.03041 | Val PSNR: 28.11 dB | LR: 7.10e-04 
+Epoch [133/300] (79.0s) | Loss: 0.03438 | Val PSNR: 27.43 dB | LR: 7.05e-04 
+Epoch [134/300] (78.4s) | Loss: 0.03205 | Val PSNR: 27.28 dB | LR: 6.99e-04 
+Epoch [135/300] (78.3s) | Loss: 0.03009 | Val PSNR: 27.28 dB | LR: 6.94e-04 
+Epoch [136/300] (78.3s) | Loss: 0.03011 | Val PSNR: 27.39 dB | LR: 6.88e-04 
+Epoch [137/300] (78.4s) | Loss: 0.02986 | Val PSNR: 27.83 dB | LR: 6.83e-04 
+Epoch [138/300] (87.2s) | Loss: 0.02948 | Val PSNR: 28.24 dB | LR: 6.77e-04 
+Epoch [139/300] (85.4s) | Loss: 0.02954 | Val PSNR: 28.35 dB | LR: 6.72e-04 
+Epoch [140/300] (84.1s) | Loss: 0.02960 | Val PSNR: 28.44 dB | LR: 6.66e-04 🔥 [NEW BEST!]
+Epoch [141/300] (95.4s) | Loss: 0.02976 | Val PSNR: 28.46 dB | LR: 6.60e-04 🔥 [NEW BEST!]
+Epoch [142/300] (89.8s) | Loss: 0.02946 | Val PSNR: 28.47 dB | LR: 6.55e-04 🔥 [NEW BEST!]
+Epoch [143/300] (92.4s) | Loss: 0.02935 | Val PSNR: 28.48 dB | LR: 6.49e-04 🔥 [NEW BEST!]
+Epoch [144/300] (84.6s) | Loss: 0.03000 | Val PSNR: 28.48 dB | LR: 6.44e-04 🔥 [NEW BEST!]
+Epoch [145/300] (84.4s) | Loss: 0.02944 | Val PSNR: 28.49 dB | LR: 6.38e-04 🔥 [NEW BEST!]
+Epoch [146/300] (84.5s) | Loss: 0.02930 | Val PSNR: 28.50 dB | LR: 6.32e-04 🔥 [NEW BEST!]
+Epoch [147/300] (84.9s) | Loss: 0.02923 | Val PSNR: 28.51 dB | LR: 6.26e-04 🔥 [NEW BEST!]
+Epoch [148/300] (84.4s) | Loss: 0.02923 | Val PSNR: 28.52 dB | LR: 6.21e-04 🔥 [NEW BEST!]
+Epoch [149/300] (84.5s) | Loss: 0.02935 | Val PSNR: 28.52 dB | LR: 6.15e-04 🔥 [NEW BEST!]
+Epoch [150/300] (85.1s) | Loss: 0.02931 | Val PSNR: 28.53 dB | LR: 6.09e-04 🔥 [NEW BEST!]
+Epoch [151/300] (84.5s) | Loss: 0.02911 | Val PSNR: 28.53 dB | LR: 6.03e-04 🔥 [NEW BEST!]
+Epoch [152/300] (84.8s) | Loss: 0.03064 | Val PSNR: 28.54 dB | LR: 5.98e-04 🔥 [NEW BEST!]
+Epoch [153/300] (84.4s) | Loss: 0.02921 | Val PSNR: 28.54 dB | LR: 5.92e-04 🔥 [NEW BEST!]
+Epoch [154/300] (81.1s) | Loss: 0.03094 | Val PSNR: 28.54 dB | LR: 5.86e-04 🔥 [NEW BEST!]
+Epoch [155/300] (78.2s) | Loss: 0.02975 | Val PSNR: 28.54 dB | LR: 5.80e-04 🔥 [NEW BEST!]
+Epoch [156/300] (78.2s) | Loss: 0.02957 | Val PSNR: 28.54 dB | LR: 5.74e-04 🔥 [NEW BEST!]
+Epoch [157/300] (78.3s) | Loss: 0.02993 | Val PSNR: 28.55 dB | LR: 5.68e-04 🔥 [NEW BEST!]
+Epoch [158/300] (78.9s) | Loss: 0.03118 | Val PSNR: 28.47 dB | LR: 5.63e-04 
+Epoch [159/300] (79.6s) | Loss: 0.02936 | Val PSNR: 28.47 dB | LR: 5.57e-04 
+Epoch [160/300] (79.1s) | Loss: 0.02917 | Val PSNR: 28.51 dB | LR: 5.51e-04 
+Epoch [161/300] (81.5s) | Loss: 0.03022 | Val PSNR: 28.53 dB | LR: 5.45e-04 
+Epoch [162/300] (87.1s) | Loss: 0.02953 | Val PSNR: 28.52 dB | LR: 5.39e-04 
+Epoch [163/300] (85.2s) | Loss: 0.03449 | Val PSNR: 28.48 dB | LR: 5.33e-04 
+Epoch [164/300] (87.6s) | Loss: 0.03141 | Val PSNR: 28.16 dB | LR: 5.27e-04 
+Epoch [165/300] (84.9s) | Loss: 0.03022 | Val PSNR: 28.07 dB | LR: 5.21e-04 
+Epoch [166/300] (79.9s) | Loss: 0.02938 | Val PSNR: 28.14 dB | LR: 5.15e-04 
+Epoch [167/300] (79.3s) | Loss: 0.02916 | Val PSNR: 28.42 dB | LR: 5.09e-04 
+Epoch [168/300] (79.9s) | Loss: 0.02914 | Val PSNR: 28.49 dB | LR: 5.03e-04 
+Epoch [169/300] (79.1s) | Loss: 0.02907 | Val PSNR: 28.51 dB | LR: 4.98e-04 
+Epoch [170/300] (80.4s) | Loss: 0.02916 | Val PSNR: 28.53 dB | LR: 4.92e-04 
+Epoch [171/300] (79.8s) | Loss: 0.02981 | Val PSNR: 28.54 dB | LR: 4.86e-04 
+Epoch [172/300] (79.3s) | Loss: 0.03246 | Val PSNR: 28.53 dB | LR: 4.80e-04 
+Epoch [173/300] (79.2s) | Loss: 0.03167 | Val PSNR: 28.48 dB | LR: 4.74e-04 
+Epoch [174/300] (79.5s) | Loss: 0.02916 | Val PSNR: 28.50 dB | LR: 4.68e-04 
+Epoch [175/300] (78.9s) | Loss: 0.03052 | Val PSNR: 28.51 dB | LR: 4.62e-04 
+Epoch [176/300] (78.4s) | Loss: 0.02943 | Val PSNR: 28.52 dB | LR: 4.56e-04 
+Epoch [177/300] (78.4s) | Loss: 0.02906 | Val PSNR: 28.54 dB | LR: 4.50e-04 
+Epoch [178/300] (78.8s) | Loss: 0.03129 | Val PSNR: 28.54 dB | LR: 4.44e-04 
+Epoch [179/300] (78.5s) | Loss: 0.02955 | Val PSNR: 28.54 dB | LR: 4.38e-04 
+Epoch [180/300] (78.7s) | Loss: 0.02899 | Val PSNR: 28.55 dB | LR: 4.33e-04 🔥 [NEW BEST!]
+Epoch [181/300] (78.4s) | Loss: 0.03090 | Val PSNR: 28.54 dB | LR: 4.27e-04 
+Epoch [182/300] (78.5s) | Loss: 0.02909 | Val PSNR: 28.55 dB | LR: 4.21e-04 
+Epoch [183/300] (78.5s) | Loss: 0.02975 | Val PSNR: 28.54 dB | LR: 4.15e-04 
+Epoch [184/300] (78.5s) | Loss: 0.02921 | Val PSNR: 28.53 dB | LR: 4.09e-04 
+Epoch [185/300] (78.5s) | Loss: 0.02889 | Val PSNR: 28.55 dB | LR: 4.03e-04 
+Epoch [186/300] (78.4s) | Loss: 0.02892 | Val PSNR: 28.56 dB | LR: 3.98e-04 🔥 [NEW BEST!]
+Epoch [187/300] (78.7s) | Loss: 0.02874 | Val PSNR: 28.57 dB | LR: 3.92e-04 🔥 [NEW BEST!]
+Epoch [188/300] (78.4s) | Loss: 0.02876 | Val PSNR: 28.57 dB | LR: 3.86e-04 🔥 [NEW BEST!]
+Epoch [189/300] (78.5s) | Loss: 0.02877 | Val PSNR: 28.57 dB | LR: 3.80e-04 🔥 [NEW BEST!]
+Epoch [190/300] (78.7s) | Loss: 0.02871 | Val PSNR: 28.58 dB | LR: 3.75e-04 🔥 [NEW BEST!]
+Epoch [191/300] (87.9s) | Loss: 0.02877 | Val PSNR: 28.58 dB | LR: 3.69e-04 🔥 [NEW BEST!]
+Epoch [192/300] (86.2s) | Loss: 0.02887 | Val PSNR: 28.58 dB | LR: 3.63e-04 🔥 [NEW BEST!]
+Epoch [193/300] (86.5s) | Loss: 0.02873 | Val PSNR: 28.58 dB | LR: 3.57e-04 🔥 [NEW BEST!]
+Epoch [194/300] (90.0s) | Loss: 0.03047 | Val PSNR: 28.58 dB | LR: 3.52e-04 
+Epoch [195/300] (87.9s) | Loss: 0.03007 | Val PSNR: 28.51 dB | LR: 3.46e-04 
+Epoch [196/300] (86.9s) | Loss: 0.02877 | Val PSNR: 28.54 dB | LR: 3.41e-04 
+Epoch [197/300] (88.9s) | Loss: 0.02872 | Val PSNR: 28.57 dB | LR: 3.35e-04 
+Epoch [198/300] (88.6s) | Loss: 0.02860 | Val PSNR: 28.58 dB | LR: 3.29e-04 
+Epoch [199/300] (89.0s) | Loss: 0.02936 | Val PSNR: 28.58 dB | LR: 3.24e-04 
+Epoch [200/300] (89.0s) | Loss: 0.02983 | Val PSNR: 28.57 dB | LR: 3.18e-04 
+Epoch [201/300] (88.8s) | Loss: 0.02993 | Val PSNR: 28.48 dB | LR: 3.13e-04 
+Epoch [202/300] (88.7s) | Loss: 0.02901 | Val PSNR: 28.40 dB | LR: 3.07e-04 
+Epoch [203/300] (88.7s) | Loss: 0.02863 | Val PSNR: 28.55 dB | LR: 3.02e-04 
+Epoch [204/300] (88.8s) | Loss: 0.02862 | Val PSNR: 28.56 dB | LR: 2.96e-04 
+Epoch [205/300] (89.5s) | Loss: 0.02856 | Val PSNR: 28.56 dB | LR: 2.91e-04 
+Epoch [206/300] (89.2s) | Loss: 0.02855 | Val PSNR: 28.58 dB | LR: 2.86e-04 
+Epoch [207/300] (89.2s) | Loss: 0.02851 | Val PSNR: 28.58 dB | LR: 2.80e-04 
+Epoch [208/300] (89.4s) | Loss: 0.02857 | Val PSNR: 28.58 dB | LR: 2.75e-04 
+Epoch [209/300] (88.9s) | Loss: 0.02845 | Val PSNR: 28.58 dB | LR: 2.70e-04 
+Epoch [210/300] (85.7s) | Loss: 0.02843 | Val PSNR: 28.58 dB | LR: 2.65e-04 🔥 [NEW BEST!]
+Epoch [211/300] (88.3s) | Loss: 0.02884 | Val PSNR: 28.58 dB | LR: 2.59e-04 
+Epoch [212/300] (92.0s) | Loss: 0.02900 | Val PSNR: 28.58 dB | LR: 2.54e-04 
+Epoch [213/300] (91.9s) | Loss: 0.03010 | Val PSNR: 28.58 dB | LR: 2.49e-04 
+Epoch [214/300] (85.4s) | Loss: 0.02946 | Val PSNR: 28.56 dB | LR: 2.44e-04 
+Epoch [215/300] (84.4s) | Loss: 0.02932 | Val PSNR: 28.52 dB | LR: 2.39e-04 
+Epoch [216/300] (83.9s) | Loss: 0.02854 | Val PSNR: 28.54 dB | LR: 2.34e-04 
+Epoch [217/300] (84.8s) | Loss: 0.02842 | Val PSNR: 28.55 dB | LR: 2.29e-04 
+Epoch [218/300] (84.3s) | Loss: 0.02838 | Val PSNR: 28.57 dB | LR: 2.24e-04 
+Epoch [219/300] (84.6s) | Loss: 0.02835 | Val PSNR: 28.58 dB | LR: 2.19e-04 
+Epoch [220/300] (84.3s) | Loss: 0.02846 | Val PSNR: 28.58 dB | LR: 2.14e-04 
+Epoch [221/300] (85.3s) | Loss: 0.02832 | Val PSNR: 28.58 dB | LR: 2.09e-04 
+Epoch [222/300] (84.3s) | Loss: 0.02829 | Val PSNR: 28.58 dB | LR: 2.05e-04 
+Epoch [223/300] (84.5s) | Loss: 0.02825 | Val PSNR: 28.58 dB | LR: 2.00e-04 
+Epoch [224/300] (84.6s) | Loss: 0.02824 | Val PSNR: 28.58 dB | LR: 1.95e-04 
+Epoch [225/300] (84.2s) | Loss: 0.02826 | Val PSNR: 28.58 dB | LR: 1.90e-04 
+Epoch [226/300] (84.7s) | Loss: 0.02839 | Val PSNR: 28.58 dB | LR: 1.86e-04 
+Epoch [227/300] (84.5s) | Loss: 0.02827 | Val PSNR: 28.57 dB | LR: 1.81e-04 
+Epoch [228/300] (84.6s) | Loss: 0.02822 | Val PSNR: 28.58 dB | LR: 1.77e-04 
+Epoch [229/300] (84.2s) | Loss: 0.02819 | Val PSNR: 28.57 dB | LR: 1.72e-04 
+Epoch [230/300] (84.7s) | Loss: 0.02858 | Val PSNR: 28.57 dB | LR: 1.68e-04 
+Epoch [231/300] (84.3s) | Loss: 0.02887 | Val PSNR: 28.56 dB | LR: 1.63e-04 
+Epoch [232/300] (84.5s) | Loss: 0.02833 | Val PSNR: 28.57 dB | LR: 1.59e-04 
+Epoch [233/300] (84.0s) | Loss: 0.02819 | Val PSNR: 28.57 dB | LR: 1.55e-04 
+Epoch [234/300] (83.9s) | Loss: 0.02821 | Val PSNR: 28.57 dB | LR: 1.50e-04 
+Epoch [235/300] (83.9s) | Loss: 0.02812 | Val PSNR: 28.57 dB | LR: 1.46e-04 
+Epoch [236/300] (84.0s) | Loss: 0.02815 | Val PSNR: 28.57 dB | LR: 1.42e-04 
+Epoch [237/300] (84.6s) | Loss: 0.02811 | Val PSNR: 28.57 dB | LR: 1.38e-04 
+Epoch [238/300] (84.9s) | Loss: 0.02808 | Val PSNR: 28.57 dB | LR: 1.34e-04 
+Epoch [239/300] (84.8s) | Loss: 0.02806 | Val PSNR: 28.57 dB | LR: 1.30e-04 
+Epoch [240/300] (84.5s) | Loss: 0.02808 | Val PSNR: 28.57 dB | LR: 1.26e-04 
+Epoch [241/300] (84.8s) | Loss: 0.02808 | Val PSNR: 28.57 dB | LR: 1.22e-04 
+Epoch [242/300] (84.8s) | Loss: 0.02816 | Val PSNR: 28.56 dB | LR: 1.18e-04 
+Epoch [243/300] (84.7s) | Loss: 0.02809 | Val PSNR: 28.56 dB | LR: 1.14e-04 
+Epoch [244/300] (82.8s) | Loss: 0.02804 | Val PSNR: 28.56 dB | LR: 1.11e-04 
+Epoch [245/300] (79.0s) | Loss: 0.02802 | Val PSNR: 28.56 dB | LR: 1.07e-04 
+Epoch [246/300] (78.2s) | Loss: 0.02801 | Val PSNR: 28.56 dB | LR: 1.03e-04 
+Epoch [247/300] (78.6s) | Loss: 0.02798 | Val PSNR: 28.56 dB | LR: 9.99e-05 
+Epoch [248/300] (78.2s) | Loss: 0.02797 | Val PSNR: 28.56 dB | LR: 9.64e-05 
+Epoch [249/300] (78.1s) | Loss: 0.02794 | Val PSNR: 28.56 dB | LR: 9.29e-05 
+Epoch [250/300] (78.2s) | Loss: 0.02794 | Val PSNR: 28.55 dB | LR: 8.95e-05 
+Epoch [251/300] (78.1s) | Loss: 0.02795 | Val PSNR: 28.55 dB | LR: 8.62e-05 
+Epoch [252/300] (79.8s) | Loss: 0.02794 | Val PSNR: 28.55 dB | LR: 8.29e-05 
+Epoch [253/300] (79.6s) | Loss: 0.02794 | Val PSNR: 28.55 dB | LR: 7.97e-05 
+Epoch [254/300] (78.8s) | Loss: 0.02791 | Val PSNR: 28.55 dB | LR: 7.66e-05 
+Epoch [255/300] (79.9s) | Loss: 0.02790 | Val PSNR: 28.55 dB | LR: 7.35e-05 
+Epoch [256/300] (79.4s) | Loss: 0.02789 | Val PSNR: 28.55 dB | LR: 7.04e-05 
+Epoch [257/300] (80.8s) | Loss: 0.02787 | Val PSNR: 28.55 dB | LR: 6.74e-05 
+Epoch [258/300] (79.6s) | Loss: 0.02786 | Val PSNR: 28.54 dB | LR: 6.45e-05 
+Epoch [259/300] (79.0s) | Loss: 0.02785 | Val PSNR: 28.54 dB | LR: 6.16e-05 
+Epoch [260/300] (79.4s) | Loss: 0.02785 | Val PSNR: 28.54 dB | LR: 5.89e-05 
+Epoch [261/300] (79.7s) | Loss: 0.02783 | Val PSNR: 28.54 dB | LR: 5.61e-05 
+Epoch [262/300] (78.9s) | Loss: 0.02782 | Val PSNR: 28.54 dB | LR: 5.34e-05 
+Epoch [263/300] (79.2s) | Loss: 0.02782 | Val PSNR: 28.54 dB | LR: 5.08e-05 
+Epoch [264/300] (79.3s) | Loss: 0.02782 | Val PSNR: 28.54 dB | LR: 4.83e-05 
+Epoch [265/300] (79.3s) | Loss: 0.02783 | Val PSNR: 28.53 dB | LR: 4.58e-05 
+Epoch [266/300] (82.9s) | Loss: 0.02779 | Val PSNR: 28.53 dB | LR: 4.34e-05 
+Epoch [267/300] (85.0s) | Loss: 0.02778 | Val PSNR: 28.53 dB | LR: 4.10e-05 
+Epoch [268/300] (78.8s) | Loss: 0.02778 | Val PSNR: 28.53 dB | LR: 3.87e-05 
+Epoch [269/300] (79.4s) | Loss: 0.02778 | Val PSNR: 28.53 dB | LR: 3.65e-05 
+Epoch [270/300] (84.1s) | Loss: 0.02775 | Val PSNR: 28.53 dB | LR: 3.44e-05 
+Epoch [271/300] (83.7s) | Loss: 0.02777 | Val PSNR: 28.53 dB | LR: 3.23e-05 
+Epoch [272/300] (85.8s) | Loss: 0.02777 | Val PSNR: 28.53 dB | LR: 3.02e-05 
+Epoch [273/300] (83.7s) | Loss: 0.02774 | Val PSNR: 28.53 dB | LR: 2.83e-05 
+Epoch [274/300] (84.1s) | Loss: 0.02773 | Val PSNR: 28.53 dB | LR: 2.64e-05 
+Epoch [275/300] (84.0s) | Loss: 0.02774 | Val PSNR: 28.52 dB | LR: 2.45e-05 
+Epoch [276/300] (84.0s) | Loss: 0.02773 | Val PSNR: 28.52 dB | LR: 2.28e-05 
+Epoch [277/300] (83.6s) | Loss: 0.02773 | Val PSNR: 28.52 dB | LR: 2.11e-05 
+Epoch [278/300] (83.9s) | Loss: 0.02772 | Val PSNR: 28.52 dB | LR: 1.95e-05 
+Epoch [279/300] (83.6s) | Loss: 0.02772 | Val PSNR: 28.52 dB | LR: 1.79e-05 
+Epoch [280/300] (83.8s) | Loss: 0.02772 | Val PSNR: 28.52 dB | LR: 1.64e-05 
+Epoch [281/300] (83.6s) | Loss: 0.02772 | Val PSNR: 28.52 dB | LR: 1.50e-05 
+Epoch [282/300] (83.7s) | Loss: 0.02771 | Val PSNR: 28.52 dB | LR: 1.36e-05 
+Epoch [283/300] (83.6s) | Loss: 0.02771 | Val PSNR: 28.52 dB | LR: 1.23e-05 
+Epoch [284/300] (83.3s) | Loss: 0.02770 | Val PSNR: 28.52 dB | LR: 1.11e-05 
+Epoch [285/300] (83.4s) | Loss: 0.02771 | Val PSNR: 28.52 dB | LR: 9.96e-06 
+Epoch [286/300] (83.4s) | Loss: 0.02770 | Val PSNR: 28.52 dB | LR: 8.88e-06 
+Epoch [287/300] (83.3s) | Loss: 0.02770 | Val PSNR: 28.51 dB | LR: 7.86e-06 
+Epoch [288/300] (83.2s) | Loss: 0.02769 | Val PSNR: 28.51 dB | LR: 6.92e-06 
+Epoch [289/300] (84.4s) | Loss: 0.02769 | Val PSNR: 28.51 dB | LR: 6.05e-06 
+Epoch [290/300] (83.6s) | Loss: 0.02770 | Val PSNR: 28.51 dB | LR: 5.24e-06 
+Epoch [291/300] (83.4s) | Loss: 0.02770 | Val PSNR: 28.51 dB | LR: 4.51e-06 
+Epoch [292/300] (83.2s) | Loss: 0.02770 | Val PSNR: 28.51 dB | LR: 3.84e-06 
+Epoch [293/300] (83.3s) | Loss: 0.02768 | Val PSNR: 28.51 dB | LR: 3.24e-06 
+Epoch [294/300] (83.4s) | Loss: 0.02768 | Val PSNR: 28.51 dB | LR: 2.72e-06 
+Epoch [295/300] (83.3s) | Loss: 0.02768 | Val PSNR: 28.51 dB | LR: 2.26e-06 
+Epoch [296/300] (83.3s) | Loss: 0.02768 | Val PSNR: 28.51 dB | LR: 1.88e-06 
+Epoch [297/300] (83.5s) | Loss: 0.02768 | Val PSNR: 28.51 dB | LR: 1.56e-06 
+Epoch [298/300] (83.7s) | Loss: 0.02768 | Val PSNR: 28.51 dB | LR: 1.32e-06 
+Epoch [299/300] (83.3s) | Loss: 0.02768 | Val PSNR: 28.51 dB | LR: 1.14e-06 
+Epoch [300/300] (83.5s) | Loss: 0.02768 | Val PSNR: 28.51 dB | LR: 1.04e-06 
+
+================================================================
+✅ Training Finished! Top Val PSNR: 28.58 dB
+Checkpoint saved to: C:\Users\shash\.gemini\antigravity-ide\scratch\kla_hackathon\best_model_rtx.pth and C:\Users\shash\.gemini\antigravity-ide\scratch\kla_hackathon\models\best_model.pth
+================================================================
+
+🔮 Generating Final Predictions with 8-Fold TTA on 400 test images...
+
+📦 Packaging 400 predictions into C:\Users\shash\.gemini\antigravity-ide\scratch\kla_hackathon\predictions_submission.zip...
+✅ Submission ZIP created: C:\Users\shash\.gemini\antigravity-ide\scratch\kla_hackathon\predictions_submission.zip (90.70 MB)
+
+📁 Creating standalone submission folder 'team_name/'...
+✅ Standalone 'team_name/' package updated successfully!

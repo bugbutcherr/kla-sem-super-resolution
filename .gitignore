@@ -1,0 +1,21 @@
+# Byte-compiled / optimized / URL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# PyTorch checkpoints (large binaries)
+*.pth
+*.pt
+models/*.pth
+models/*.pt
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# OS metadata
+.DS_Store
+Thumbs.db
